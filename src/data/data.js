@@ -35,7 +35,7 @@ export const projects = [
         title: "Eye Disease Detection System",
         description: "Trained a transfer learning model to classify 5 stages of diabetic eye disease from retinal fundus images, achieving 89% validation accuracy with TensorFlow and deep learning techniques.",
         tech: ["Python", "TensorFlow", "Deep Learning", "Transfer Learning"],
-        github: "#",
+        github: "https://github.com/Subash895/Diabetic-Retinopathy-EfficientNet",
         demo: null,
         highlights: [
             "89% validation accuracy",

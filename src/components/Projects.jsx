@@ -17,7 +17,7 @@ function Projects() {
                                 ))}
                             </div>
                             <div className="project-links">
-                                {project.github && (
+                                {project.github && project.github !== '#' && (
                                     <a href={project.github} target="_blank" rel="noopener noreferrer" className="project-link">
                                         GitHub →
                                     </a>
