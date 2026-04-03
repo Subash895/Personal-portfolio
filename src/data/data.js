@@ -13,7 +13,13 @@ export const personalInfo = {
 };
 
 export const about = {
-    description: "I'm a final-year Bachelor of Engineering student specializing in Artificial Intelligence and Machine Learning at RNS Institute of Technology, Bangalore. With strong expertise in Java, Spring Boot, and MySQL, I focus on engineering clean, scalable backend systems and delivering deep learning solutions. I believe in writing maintainable code, following OOP principles, and building real-world applications that solve practical problems."
+    paragraphs: [
+        "I'm a final-year Computer Science student specializing in Artificial Intelligence and Machine Learning at RNS Institute of Technology, Bangalore.",
+        "I focus on building real-world applications that are not just technically strong, but also intuitive and user-friendly. My experience spans backend development with Java, Spring Boot, and MySQL, along with developing AI-based systems like crowd counting models.",
+        "What sets me apart is my ability to bridge development and user experience. I pay close attention to how users interact with products - simplifying complex outputs, structuring clean interfaces, and ensuring performance and usability go hand in hand.",
+        "I believe in writing maintainable, scalable code and continuously improving by building, testing, and refining real projects.",
+        "Currently, I'm expanding my skills in UI/UX design to create products that are both functional and thoughtfully designed."
+    ]
 };
 
 export const projects = [
@@ -98,16 +104,16 @@ export const projects = [
 ];
 
 export const skills = {
-    languages: ["Java", "Python", "SQL"],
+    languages: ["Java", "Python", "SQL", "C", "HTML", "CSS", "JavaScript"],
     frameworks: ["Spring Boot", "Spring MVC", "JDBC", "Maven", "TensorFlow", "Keras"],
     tools: ["Git", "GitHub", "MySQL", "Postman", "IntelliJ IDEA", "VS Code", "Power BI"],
-    concepts: ["MVC Architecture", "OOP", "REST API", "Deep Learning", "Transfer Learning"]
+    concepts: ["MVC Architecture", "OOP", "REST API", "Deep Learning", "Transfer Learning", "DSA", "ADA"]
 };
 
 export const experience = [
     {
-        role: "SmartCity – Karnataka",
-        period: "November 2025 – February 2026",
+        role: "SmartCity - Karnataka",
+        period: "November 2025 - February 2026",
         description: "Spring Boot Developer",
         achievements: [
             "Built MVC web app serving 500+ users",
