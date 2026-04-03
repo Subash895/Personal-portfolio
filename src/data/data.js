@@ -104,9 +104,9 @@ export const projects = [
 ];
 
 export const skills = {
-    languages: ["Java", "Python", "SQL", "C", "HTML", "CSS", "JavaScript"],
+    languages: ["Java", "Python", "SQL", "C", "HTML", "CSS", "JavaScript", "Julia"],
     frameworks: ["Spring Boot", "Spring MVC", "JDBC", "Maven", "TensorFlow", "Keras"],
-    tools: ["Git", "GitHub", "MySQL", "Postman", "IntelliJ IDEA", "VS Code", "Power BI"],
+    tools: ["Git", "GitHub", "MySQL", "Postman", "IntelliJ IDEA", "VS Code", "Power BI", "Figma"],
     concepts: ["MVC Architecture", "OOP", "REST API", "Deep Learning", "Transfer Learning", "DSA", "ADA"]
 };
 
