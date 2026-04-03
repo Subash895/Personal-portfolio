@@ -55,6 +55,45 @@ export const projects = [
             "Zero SQL injection vulnerabilities",
             "Clean OOP design across 5 classes"
         ]
+    },
+    {
+        id: 4,
+        title: "Leave Scheduler Platform",
+        description: "Built a full-stack leave management platform with Spring Boot, React, and MySQL to handle employee leave requests, approval workflows, and admin onboarding. Secured the system with JWT-based authentication and added Docker support for consistent local setup.",
+        tech: ["Spring Boot", "React", "MySQL", "JWT", "Docker"],
+        github: "https://github.com/Subash895/LeaveScheduler",
+        demo: null,
+        highlights: [
+            "Role-based workflows for admin, manager, and employee users",
+            "JWT-secured authentication and account bootstrap flow",
+            "Dockerized frontend, backend, and database setup"
+        ]
+    },
+    {
+        id: 5,
+        title: "Breast Cancer Prediction System",
+        description: "Developed a machine learning model using scikit-learn to classify breast cancer cases from 30 diagnostic features. Automated dataset preparation, train-test evaluation, model persistence with Joblib, and interactive CLI-based prediction input.",
+        tech: ["Python", "scikit-learn", "Pandas", "NumPy", "Joblib"],
+        github: "https://github.com/Subash895/BreastCarser",
+        demo: null,
+        highlights: [
+            "Logistic Regression pipeline with train and test accuracy checks",
+            "30-feature input validation for interactive predictions",
+            "Reusable saved model artifact using Joblib"
+        ]
+    },
+    {
+        id: 6,
+        title: "Personal Portfolio Website",
+        description: "Designed and developed a responsive React portfolio site to present projects, skills, and contact information in a clean single-page layout. Organized content through reusable components and centralized data structures for quick updates.",
+        tech: ["React", "JavaScript", "CSS", "Responsive Design", "Component Architecture"],
+        github: "https://github.com/Subash895/Personal-portfolio",
+        demo: null,
+        highlights: [
+            "Single-page responsive layout with animated sections",
+            "Reusable React components for each portfolio section",
+            "Centralized content management through structured data files"
+        ]
     }
 ];
 
